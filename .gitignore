@@ -1,0 +1,9 @@
+# macOS 自动生成的文件。
+.DS_Store
+# 本地构建产物和 Xcode 用户状态不进入 Git。
+Build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+# Xcode 为工程自动生成的本地工作区。
+*.xcodeproj/project.xcworkspace/

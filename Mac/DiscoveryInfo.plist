@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Mac 注册供 iPhone 发现的 Bonjour 服务时，向系统声明所使用的服务类型。 -->
+    <key>NSBonjourServices</key>
+    <array><string>_voiceremote._tcp</string></array>
+</dict>
+</plist>

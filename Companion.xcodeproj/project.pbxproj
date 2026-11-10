@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+// Xcode 工程配置：声明手机和 Mac 两个目标、源码文件及构建设置。
+// ID 由工程用于关联对象；通常使用 Xcode 修改，不必手动调整。
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* 每个目标编译源码时使用的构建文件引用。 */
+/* Begin PBXBuildFile section */
+		A10000000000000000000033 /* Shared/Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000030 /* Shared/Wire.swift */; };
+		A10000000000000000000034 /* Phone/PhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000031 /* Phone/PhoneApp.swift */; };
+		A10000000000000000000035 /* Shared/Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000030 /* Shared/Wire.swift */; };
+		A10000000000000000000036 /* Mac/MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000032 /* Mac/MacApp.swift */; };
+/* End PBXBuildFile section */
+
+/* 工程中的源文件和生成的应用文件引用。 */
+/* Begin PBXFileReference section */
+		A10000000000000000000014 /* VoiceRemotePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRemotePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000024 /* VoiceRemoteMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRemoteMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000030 /* Shared/Wire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Wire.swift; sourceTree = "<group>"; };
+		A10000000000000000000031 /* Phone/PhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone/PhoneApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000032 /* Mac/MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac/MacApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Xcode 导航器中的文件分组。 */
+/* Begin PBXGroup section */
+		A10000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000030 /* Shared/Wire.swift */,
+				A10000000000000000000031 /* Phone/PhoneApp.swift */,
+				A10000000000000000000032 /* Mac/MacApp.swift */,
+				A10000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000014 /* VoiceRemotePhone.app */,
+				A10000000000000000000024 /* VoiceRemoteMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* 手机与 Mac 两个应用目标。 */
+/* Begin PBXNativeTarget section */
+		A10000000000000000000010 /* VoiceRemotePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000011 /* Build configuration list for PBXNativeTarget "VoiceRemotePhone" */;
+			buildPhases = (
+				A10000000000000000000012 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRemotePhone;
+			productName = VoiceRemotePhone;
+			productReference = A10000000000000000000014 /* VoiceRemotePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000020 /* VoiceRemoteMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000021 /* Build configuration list for PBXNativeTarget "VoiceRemoteMac" */;
+			buildPhases = (
+				A10000000000000000000022 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRemoteMac;
+			productName = VoiceRemoteMac;
+			productReference = A10000000000000000000024 /* VoiceRemoteMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* 整个 Xcode 工程的入口和目标列表。 */
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = A10000000000000000000002 /* Build configuration list for PBXProject "Companion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000003;
+			productRefGroup = A10000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000010 /* VoiceRemotePhone */,
+				A10000000000000000000020 /* VoiceRemoteMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* 各目标在编译阶段包含的源码。 */
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000033 /* Shared/Wire.swift in Sources */,
+				A10000000000000000000034 /* Phone/PhoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000035 /* Shared/Wire.swift in Sources */,
+				A10000000000000000000036 /* Mac/MacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Debug / Release 的签名、平台、权限文案和构建参数。 */
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Phone/DiscoveryInfo.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "连接局域网内的 Mac。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录制语音并发送到你的 Mac。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.voiceremote.phone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A10000000000000000000016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Phone/DiscoveryInfo.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "连接局域网内的 Mac。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录制语音并发送到你的 Mac。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.voiceremote.phone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A10000000000000000000025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mac/DiscoveryInfo.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "发现并连接附近的 iPhone。";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.voiceremote.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A10000000000000000000026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mac/DiscoveryInfo.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "发现并连接附近的 iPhone。";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.voiceremote.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* 将工程或目标关联到对应的 Debug / Release 配置。 */
+/* Begin XCConfigurationList section */
+		A10000000000000000000002 /* Build configuration list for PBXProject "Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000005 /* Debug */,
+				A10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000011 /* Build configuration list for PBXNativeTarget "VoiceRemotePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000015 /* Debug */,
+				A10000000000000000000016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000021 /* Build configuration list for PBXNativeTarget "VoiceRemoteMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000025 /* Debug */,
+				A10000000000000000000026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}
